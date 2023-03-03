@@ -1,27 +1,4 @@
-@font-face {
-    font-family: 'Blacker Pro Medium';
-    src: url(/fonts/BlackerPro/Zetafonts\ -\ Blacker\ Pro\ Display\ Medium\ Italic.otf);
-}
-
-@font-face {
-    font-family: 'Blacker Pro Condensed Light';
-    src: url(/fonts/BlackerPro/Zetafonts\ -\ Blacker\ Pro\ Display\ Condensed\ Light.otf);
-}
-
-@font-face {
-    font-family: 'Helvetica Now Thin';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Thin.ttf);
-}
-
-@font-face {
-    font-family: 'Helvetica Now Regular';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Helvetica Now Medium';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Medium.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Fredoka:wght@300;400&family=Hahmlet:wght@200;300;400&family=Lora:wght@400;500&family=Lustria&family=Nanum+Myeongjo:wght@400;700&family=Orbitron&family=Poppins:wght@200;300;400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&family=Roboto:wght@300&family=Varela+Round&display=swap');
 
 
 a {
@@ -103,8 +80,9 @@ nav .nav-container{
 
 #nav-menu li {
     display: inline;
-    font-size: 20px;
-    font-family: 'Helvetica Now Regular';
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     color: #333;
     transition: transform 0.15s ease;
     position: relative;
