@@ -162,6 +162,25 @@ main .past-work .past-work-container .project .image-wrapper .project-image:hove
     filter: brightness(110%);
 }
 
+main .bmw-project-full{
+    cursor: pointer;
+    transform: scale(0.3);
+    display: none;
+    position: absolute;
+    top: -530%;
+    left: -400px;
+    z-index: 1000;
+}
+
+
+main .past-work .past-work-container .project .image-wrapper .project-image-bmw:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+    filter: brightness(110%);
+}
+
+
+
 
 
 /* VIDEO  */
