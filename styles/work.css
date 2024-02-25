@@ -75,6 +75,7 @@ main .recent-work .recent-work-wrapper .image-wrapper .latest-project-image {
     transform: scale(1.05);
 }
 
+
 main .recent-work .recent-work-wrapper .image-wrapper .latest-project-image:hover {
     transition: transform 0.5s ease;
     transform: scale(1.2);
@@ -188,7 +189,6 @@ main .past-work .past-work-container .project .image-wrapper .project-image-bmw:
     transform: scale(1.2);
     filter: brightness(110%);
 }
-
 
 
 
